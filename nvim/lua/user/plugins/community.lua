@@ -7,5 +7,6 @@ return {
   {
     "sonokai",
     event = "BufRead",
-  }
+  },
+  { import = "astrocommunity.pack.rust" }
 }
