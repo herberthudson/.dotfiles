@@ -15,4 +15,18 @@ return {
 	{ import = "astrocommunity.pack.go" },
 	{ import = "astrocommunity.pack.html-css" },
 	{ import = "astrocommunity.completion.codeium-vim" },
+	{ import = "astrocommunity.bars-and-lines.bufferline-nvim" },
+	{
+		"bufferline.nvim",
+		-- update style to underline
+		config = function()
+			require("bufferline").setup({
+				options = {
+					indicator = {
+						style = "underline",
+					},
+				},
+			})
+		end,
+	},
 }
