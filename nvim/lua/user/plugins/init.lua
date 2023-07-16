@@ -68,4 +68,8 @@ return {
 			return opts
 		end,
 	},
+	{
+		"wintermute-cell/gitignore.nvim",
+		cmd = "Gitignore",
+	},
 }
